@@ -25,6 +25,12 @@
 		DE5361542728ED3B00FAC549 /* CommentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5361522728ED3B00FAC549 /* CommentViewController.storyboard */; };
 		DE5361572728ED5000FAC549 /* GalleryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5361552728ED5000FAC549 /* GalleryViewController.storyboard */; };
 		DE5361592728ED6A00FAC549 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5361582728ED6A00FAC549 /* GalleryViewController.swift */; };
+		DE53615D2728F0BE00FAC549 /* CommentListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE53615B2728F0BE00FAC549 /* CommentListHeaderView.swift */; };
+		DE53615E2728F0BE00FAC549 /* CommentListHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE53615C2728F0BE00FAC549 /* CommentListHeaderView.xib */; };
+		DE5361602728F0F500FAC549 /* CommentListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE53615F2728F0F500FAC549 /* CommentListCell.swift */; };
+		DE5361622728F15800FAC549 /* CommentListCellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5361612728F15800FAC549 /* CommentListCellConfiguration.swift */; };
+		DE5361642728F21300FAC549 /* CommentListContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5361632728F21300FAC549 /* CommentListContentView.xib */; };
+		DE5361662728F22A00FAC549 /* CommentListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5361652728F22A00FAC549 /* CommentListContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +73,12 @@
 		DE5361532728ED3B00FAC549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CommentViewController.storyboard; sourceTree = "<group>"; };
 		DE5361562728ED5000FAC549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/GalleryViewController.storyboard; sourceTree = "<group>"; };
 		DE5361582728ED6A00FAC549 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		DE53615B2728F0BE00FAC549 /* CommentListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListHeaderView.swift; sourceTree = "<group>"; };
+		DE53615C2728F0BE00FAC549 /* CommentListHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentListHeaderView.xib; sourceTree = "<group>"; };
+		DE53615F2728F0F500FAC549 /* CommentListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListCell.swift; sourceTree = "<group>"; };
+		DE5361612728F15800FAC549 /* CommentListCellConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListCellConfiguration.swift; sourceTree = "<group>"; };
+		DE5361632728F21300FAC549 /* CommentListContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentListContentView.xib; sourceTree = "<group>"; };
+		DE5361652728F22A00FAC549 /* CommentListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +184,7 @@
 		DE5361442728E07100FAC549 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DE53615A2728F07900FAC549 /* CommentListHeaderView */,
 				DE5361472728E1BB00FAC549 /* CommentListCell */,
 				DE5361452728E19B00FAC549 /* CustomViewBase.swift */,
 			);
@@ -181,6 +194,10 @@
 		DE5361472728E1BB00FAC549 /* CommentListCell */ = {
 			isa = PBXGroup;
 			children = (
+				DE53615F2728F0F500FAC549 /* CommentListCell.swift */,
+				DE5361612728F15800FAC549 /* CommentListCellConfiguration.swift */,
+				DE5361652728F22A00FAC549 /* CommentListContentView.swift */,
+				DE5361632728F21300FAC549 /* CommentListContentView.xib */,
 			);
 			path = CommentListCell;
 			sourceTree = "<group>";
@@ -192,6 +209,15 @@
 				DE53614B2728E22000FAC549 /* UICollectionViewExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		DE53615A2728F07900FAC549 /* CommentListHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				DE53615B2728F0BE00FAC549 /* CommentListHeaderView.swift */,
+				DE53615C2728F0BE00FAC549 /* CommentListHeaderView.xib */,
+			);
+			path = CommentListHeaderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,11 +324,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5361642728F21300FAC549 /* CommentListContentView.xib in Resources */,
 				DE53611B27287C9000FAC549 /* LaunchScreen.storyboard in Resources */,
 				DE5361542728ED3B00FAC549 /* CommentViewController.storyboard in Resources */,
 				DE5361572728ED5000FAC549 /* GalleryViewController.storyboard in Resources */,
 				DE53611827287C9000FAC549 /* Assets.xcassets in Resources */,
 				DE5361512728ED1A00FAC549 /* GlobalTabBarController.storyboard in Resources */,
+				DE53615E2728F0BE00FAC549 /* CommentListHeaderView.xib in Resources */,
 				DE53611627287C8D00FAC549 /* MainViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,9 +356,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5361622728F15800FAC549 /* CommentListCellConfiguration.swift in Sources */,
+				DE5361662728F22A00FAC549 /* CommentListContentView.swift in Sources */,
 				DE53614E2728ECAD00FAC549 /* GlobalTabBarController.swift in Sources */,
 				DE5361462728E19B00FAC549 /* CustomViewBase.swift in Sources */,
 				DE53613F2728D92F00FAC549 /* CommentViewController.swift in Sources */,
+				DE53615D2728F0BE00FAC549 /* CommentListHeaderView.swift in Sources */,
+				DE5361602728F0F500FAC549 /* CommentListCell.swift in Sources */,
 				DE53614C2728E22000FAC549 /* UICollectionViewExtension.swift in Sources */,
 				DE53611327287C8D00FAC549 /* MainViewController.swift in Sources */,
 				DE53614A2728E1FC00FAC549 /* NSObjectProtocolExtension.swift in Sources */,
