@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		DE53610F27287C8D00FAC549 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE53610E27287C8D00FAC549 /* AppDelegate.swift */; };
 		DE53611127287C8D00FAC549 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE53611027287C8D00FAC549 /* SceneDelegate.swift */; };
-		DE53611327287C8D00FAC549 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE53611227287C8D00FAC549 /* ViewController.swift */; };
-		DE53611627287C8D00FAC549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE53611427287C8D00FAC549 /* Main.storyboard */; };
+		DE53611327287C8D00FAC549 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE53611227287C8D00FAC549 /* MainViewController.swift */; };
+		DE53611627287C8D00FAC549 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE53611427287C8D00FAC549 /* MainViewController.storyboard */; };
 		DE53611827287C9000FAC549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE53611727287C9000FAC549 /* Assets.xcassets */; };
 		DE53611B27287C9000FAC549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE53611927287C9000FAC549 /* LaunchScreen.storyboard */; };
 		DE53612627287C9000FAC549 /* DeclarativeCollectionViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE53612527287C9000FAC549 /* DeclarativeCollectionViewExampleTests.swift */; };
 		DE53613027287C9000FAC549 /* DeclarativeCollectionViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE53612F27287C9000FAC549 /* DeclarativeCollectionViewExampleUITests.swift */; };
 		DE53613227287C9000FAC549 /* DeclarativeCollectionViewExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE53613127287C9000FAC549 /* DeclarativeCollectionViewExampleUITestsLaunchTests.swift */; };
+		DE53613F2728D92F00FAC549 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE53613E2728D92F00FAC549 /* CommentViewController.swift */; };
+		DE5361462728E19B00FAC549 /* CustomViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5361452728E19B00FAC549 /* CustomViewBase.swift */; };
+		DE53614A2728E1FC00FAC549 /* NSObjectProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5361492728E1FC00FAC549 /* NSObjectProtocolExtension.swift */; };
+		DE53614C2728E22000FAC549 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE53614B2728E22000FAC549 /* UICollectionViewExtension.swift */; };
+		DE53614E2728ECAD00FAC549 /* GlobalTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE53614D2728ECAD00FAC549 /* GlobalTabBarController.swift */; };
+		DE5361512728ED1A00FAC549 /* GlobalTabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE53614F2728ED1A00FAC549 /* GlobalTabBarController.storyboard */; };
+		DE5361542728ED3B00FAC549 /* CommentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5361522728ED3B00FAC549 /* CommentViewController.storyboard */; };
+		DE5361572728ED5000FAC549 /* GalleryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5361552728ED5000FAC549 /* GalleryViewController.storyboard */; };
+		DE5361592728ED6A00FAC549 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5361582728ED6A00FAC549 /* GalleryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +48,8 @@
 		DE53610B27287C8D00FAC549 /* DeclarativeCollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeclarativeCollectionViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE53610E27287C8D00FAC549 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE53611027287C8D00FAC549 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE53611227287C8D00FAC549 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE53611527287C8D00FAC549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE53611227287C8D00FAC549 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DE53611527287C8D00FAC549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainViewController.storyboard; sourceTree = "<group>"; };
 		DE53611727287C9000FAC549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE53611A27287C9000FAC549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE53611C27287C9000FAC549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		DE53612B27287C9000FAC549 /* DeclarativeCollectionViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeclarativeCollectionViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE53612F27287C9000FAC549 /* DeclarativeCollectionViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeclarativeCollectionViewExampleUITests.swift; sourceTree = "<group>"; };
 		DE53613127287C9000FAC549 /* DeclarativeCollectionViewExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeclarativeCollectionViewExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE53613E2728D92F00FAC549 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		DE5361452728E19B00FAC549 /* CustomViewBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewBase.swift; sourceTree = "<group>"; };
+		DE5361492728E1FC00FAC549 /* NSObjectProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectProtocolExtension.swift; sourceTree = "<group>"; };
+		DE53614B2728E22000FAC549 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		DE53614D2728ECAD00FAC549 /* GlobalTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTabBarController.swift; sourceTree = "<group>"; };
+		DE5361502728ED1A00FAC549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/GlobalTabBarController.storyboard; sourceTree = "<group>"; };
+		DE5361532728ED3B00FAC549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CommentViewController.storyboard; sourceTree = "<group>"; };
+		DE5361562728ED5000FAC549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/GalleryViewController.storyboard; sourceTree = "<group>"; };
+		DE5361582728ED6A00FAC549 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +117,15 @@
 		DE53610D27287C8D00FAC549 /* DeclarativeCollectionViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				DE53611C27287C9000FAC549 /* Info.plist */,
 				DE53610E27287C8D00FAC549 /* AppDelegate.swift */,
 				DE53611027287C8D00FAC549 /* SceneDelegate.swift */,
-				DE53611227287C8D00FAC549 /* ViewController.swift */,
-				DE53611427287C8D00FAC549 /* Main.storyboard */,
 				DE53611727287C9000FAC549 /* Assets.xcassets */,
 				DE53611927287C9000FAC549 /* LaunchScreen.storyboard */,
-				DE53611C27287C9000FAC549 /* Info.plist */,
+				DE5361482728E1DD00FAC549 /* Extension */,
+				DE5361402728DBC000FAC549 /* Storyboard */,
+				DE5361442728E07100FAC549 /* View */,
+				DE5361432728E04400FAC549 /* ViewController */,
 			);
 			path = DeclarativeCollectionViewExample;
 			sourceTree = "<group>";
@@ -125,6 +145,53 @@
 				DE53613127287C9000FAC549 /* DeclarativeCollectionViewExampleUITestsLaunchTests.swift */,
 			);
 			path = DeclarativeCollectionViewExampleUITests;
+			sourceTree = "<group>";
+		};
+		DE5361402728DBC000FAC549 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DE53614F2728ED1A00FAC549 /* GlobalTabBarController.storyboard */,
+				DE53611427287C8D00FAC549 /* MainViewController.storyboard */,
+				DE5361552728ED5000FAC549 /* GalleryViewController.storyboard */,
+				DE5361522728ED3B00FAC549 /* CommentViewController.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DE5361432728E04400FAC549 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE53614D2728ECAD00FAC549 /* GlobalTabBarController.swift */,
+				DE53611227287C8D00FAC549 /* MainViewController.swift */,
+				DE5361582728ED6A00FAC549 /* GalleryViewController.swift */,
+				DE53613E2728D92F00FAC549 /* CommentViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DE5361442728E07100FAC549 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE5361472728E1BB00FAC549 /* CommentListCell */,
+				DE5361452728E19B00FAC549 /* CustomViewBase.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE5361472728E1BB00FAC549 /* CommentListCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommentListCell;
+			sourceTree = "<group>";
+		};
+		DE5361482728E1DD00FAC549 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DE5361492728E1FC00FAC549 /* NSObjectProtocolExtension.swift */,
+				DE53614B2728E22000FAC549 /* UICollectionViewExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE53611B27287C9000FAC549 /* LaunchScreen.storyboard in Resources */,
+				DE5361542728ED3B00FAC549 /* CommentViewController.storyboard in Resources */,
+				DE5361572728ED5000FAC549 /* GalleryViewController.storyboard in Resources */,
 				DE53611827287C9000FAC549 /* Assets.xcassets in Resources */,
-				DE53611627287C8D00FAC549 /* Main.storyboard in Resources */,
+				DE5361512728ED1A00FAC549 /* GlobalTabBarController.storyboard in Resources */,
+				DE53611627287C8D00FAC549 /* MainViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +328,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE53611327287C8D00FAC549 /* ViewController.swift in Sources */,
+				DE53614E2728ECAD00FAC549 /* GlobalTabBarController.swift in Sources */,
+				DE5361462728E19B00FAC549 /* CustomViewBase.swift in Sources */,
+				DE53613F2728D92F00FAC549 /* CommentViewController.swift in Sources */,
+				DE53614C2728E22000FAC549 /* UICollectionViewExtension.swift in Sources */,
+				DE53611327287C8D00FAC549 /* MainViewController.swift in Sources */,
+				DE53614A2728E1FC00FAC549 /* NSObjectProtocolExtension.swift in Sources */,
+				DE5361592728ED6A00FAC549 /* GalleryViewController.swift in Sources */,
 				DE53610F27287C8D00FAC549 /* AppDelegate.swift in Sources */,
 				DE53611127287C8D00FAC549 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,12 +373,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DE53611427287C8D00FAC549 /* Main.storyboard */ = {
+		DE53611427287C8D00FAC549 /* MainViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DE53611527287C8D00FAC549 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		DE53611927287C9000FAC549 /* LaunchScreen.storyboard */ = {
@@ -311,6 +387,30 @@
 				DE53611A27287C9000FAC549 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DE53614F2728ED1A00FAC549 /* GlobalTabBarController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE5361502728ED1A00FAC549 /* Base */,
+			);
+			name = GlobalTabBarController.storyboard;
+			sourceTree = "<group>";
+		};
+		DE5361522728ED3B00FAC549 /* CommentViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE5361532728ED3B00FAC549 /* Base */,
+			);
+			name = CommentViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		DE5361552728ED5000FAC549 /* GalleryViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE5361562728ED5000FAC549 /* Base */,
+			);
+			name = GalleryViewController.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -367,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -444,7 +544,7 @@
 				INFOPLIST_FILE = DeclarativeCollectionViewExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = GlobalTabBarController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +572,7 @@
 				INFOPLIST_FILE = DeclarativeCollectionViewExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = GlobalTabBarController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
