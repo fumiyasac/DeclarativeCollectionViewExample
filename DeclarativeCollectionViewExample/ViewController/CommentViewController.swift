@@ -210,8 +210,11 @@ extension SettingsViewController: SettingsView {
         movieSettingsDto: MovieSettingsDto,
         questionDto: QuestionDto
     ) {
-        // MEMO: 初期化状態にする
-        applyEmptySnapshot()
+        // MEMO: 既存のセクションデータをSnapshotから削除する
+        let beforeMovieSettingsViewObjects = snapshot.itemIdentifiers(inSection: .movieSettings)
+        snapshot.deleteItems(beforeMovieSettingsViewObjects)
+        let beforeQuestionsViewObjects = snapshot.itemIdentifiers(inSection: .questions)
+        snapshot.deleteItems(beforeQuestionsViewObjects)
 
         // MEMO: セクションの並び順番をこの中で決定する
         let movieSettingsViewObjects: [AnyHashable] = [
