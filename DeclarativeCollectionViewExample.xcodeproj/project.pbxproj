@@ -33,6 +33,9 @@
 		DE5361662728F22A00FAC549 /* CommentListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5361652728F22A00FAC549 /* CommentListContentView.swift */; };
 		DE5361692728F5C100FAC549 /* SettingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5361672728F5C100FAC549 /* SettingViewController.storyboard */; };
 		DE53616B272907BC00FAC549 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE53616A272907BC00FAC549 /* SettingViewController.swift */; };
+		DEB04BCF272D871200D5D642 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB04BCE272D871200D5D642 /* UIViewControllerExtension.swift */; };
+		DEB04BD1272D872B00D5D642 /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB04BD0272D872B00D5D642 /* UINavigationControllerExtension.swift */; };
+		DEB04BD3272D875200D5D642 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB04BD2272D875200D5D642 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +86,9 @@
 		DE5361652728F22A00FAC549 /* CommentListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListContentView.swift; sourceTree = "<group>"; };
 		DE5361682728F5C100FAC549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SettingViewController.storyboard; sourceTree = "<group>"; };
 		DE53616A272907BC00FAC549 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		DEB04BCE272D871200D5D642 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		DEB04BD0272D872B00D5D642 /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
+		DEB04BD2272D875200D5D642 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +220,9 @@
 			children = (
 				DE5361492728E1FC00FAC549 /* NSObjectProtocolExtension.swift */,
 				DE53614B2728E22000FAC549 /* UICollectionViewExtension.swift */,
+				DEB04BD2272D875200D5D642 /* UIColorExtension.swift */,
+				DEB04BD0272D872B00D5D642 /* UINavigationControllerExtension.swift */,
+				DEB04BCE272D871200D5D642 /* UIViewControllerExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -371,8 +380,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB04BD3272D875200D5D642 /* UIColorExtension.swift in Sources */,
 				DE5361622728F15800FAC549 /* CommentListCellConfiguration.swift in Sources */,
 				DE5361662728F22A00FAC549 /* CommentListContentView.swift in Sources */,
+				DEB04BCF272D871200D5D642 /* UIViewControllerExtension.swift in Sources */,
 				DE53614E2728ECAD00FAC549 /* GlobalTabBarController.swift in Sources */,
 				DE5361462728E19B00FAC549 /* CustomViewBase.swift in Sources */,
 				DE53613F2728D92F00FAC549 /* CommentViewController.swift in Sources */,
@@ -385,6 +396,7 @@
 				DE5361592728ED6A00FAC549 /* GalleryViewController.swift in Sources */,
 				DE53610F27287C8D00FAC549 /* AppDelegate.swift in Sources */,
 				DE53611127287C8D00FAC549 /* SceneDelegate.swift in Sources */,
+				DEB04BD1272D872B00D5D642 /* UINavigationControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
