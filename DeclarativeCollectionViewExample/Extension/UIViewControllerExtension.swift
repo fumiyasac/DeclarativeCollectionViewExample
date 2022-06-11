@@ -60,7 +60,9 @@ extension UIViewController {
         if allowRotate {
             return UINavigationController(rootViewController: self)
         } else {
-            return PortraitNavigationController(rootViewController: self)
+            fatalError()
+            // TODO: 回転にも配慮した拡張クラスの実装
+            //return PortraitNavigationController(rootViewController: self)
         }
     }
 }

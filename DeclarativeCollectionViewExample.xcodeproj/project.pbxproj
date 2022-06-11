@@ -145,9 +145,12 @@
 				DE53611727287C9000FAC549 /* Assets.xcassets */,
 				DE53611927287C9000FAC549 /* LaunchScreen.storyboard */,
 				DE5361482728E1DD00FAC549 /* Extension */,
+				DEB0D92F275CF63A002E6766 /* Infrastructure */,
+				DEB0D92E275CF62F002E6766 /* Repository */,
 				DE5361402728DBC000FAC549 /* Storyboard */,
 				DE5361442728E07100FAC549 /* View */,
 				DE5361432728E04400FAC549 /* ViewController */,
+				DEB0D92D275CF54A002E6766 /* ViewModel */,
 				DE53616C272916D300FAC549 /* ViewObject */,
 			);
 			path = DeclarativeCollectionViewExample;
@@ -197,9 +200,9 @@
 		DE5361442728E07100FAC549 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DE5361452728E19B00FAC549 /* CustomViewBase.swift */,
 				DE53615A2728F07900FAC549 /* CommentListHeaderView */,
 				DE5361472728E1BB00FAC549 /* CommentListCell */,
-				DE5361452728E19B00FAC549 /* CustomViewBase.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -241,6 +244,27 @@
 			children = (
 			);
 			path = ViewObject;
+			sourceTree = "<group>";
+		};
+		DEB0D92D275CF54A002E6766 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DEB0D92E275CF62F002E6766 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		DEB0D92F275CF63A002E6766 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Infrastructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
