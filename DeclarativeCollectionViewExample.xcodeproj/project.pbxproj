@@ -36,6 +36,7 @@
 		DEB04BCF272D871200D5D642 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB04BCE272D871200D5D642 /* UIViewControllerExtension.swift */; };
 		DEB04BD1272D872B00D5D642 /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB04BD0272D872B00D5D642 /* UINavigationControllerExtension.swift */; };
 		DEB04BD3272D875200D5D642 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB04BD2272D875200D5D642 /* UIColorExtension.swift */; };
+		DEE2857E285A1C0E004CCCB9 /* PortraitNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2857D285A1C0E004CCCB9 /* PortraitNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		DEB04BCE272D871200D5D642 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		DEB04BD0272D872B00D5D642 /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
 		DEB04BD2272D875200D5D642 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		DEE2857D285A1C0E004CCCB9 /* PortraitNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				DE5361452728E19B00FAC549 /* CustomViewBase.swift */,
+				DEE2857D285A1C0E004CCCB9 /* PortraitNavigationController.swift */,
 				DE53615A2728F07900FAC549 /* CommentListHeaderView */,
 				DE5361472728E1BB00FAC549 /* CommentListCell */,
 			);
@@ -420,6 +423,7 @@
 				DE5361592728ED6A00FAC549 /* GalleryViewController.swift in Sources */,
 				DE53610F27287C8D00FAC549 /* AppDelegate.swift in Sources */,
 				DE53611127287C8D00FAC549 /* SceneDelegate.swift in Sources */,
+				DEE2857E285A1C0E004CCCB9 /* PortraitNavigationController.swift in Sources */,
 				DEB04BD1272D872B00D5D642 /* UINavigationControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
